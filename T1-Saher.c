@@ -4,7 +4,7 @@
  //DECLARE A STRUCTURE FOR VOTERS
  struct Voter{
     char name[30],gender,address[50]; //CANDIDATES NAME,GENDER AND ADDRESS
-    int age,ID,contact no[10];        //CANDIDATES AGE,UNIQUE ID,CONTACT NO
+    int age,ID,contact_no[10];        //CANDIDATES AGE,UNIQUE ID,CONTACT NO
  };
 
  //DECLARE A STRUCTURE FOR PARTIES
