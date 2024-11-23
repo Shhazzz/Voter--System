@@ -1,10 +1,12 @@
 #include <stdio.h>
 int main()
 {
+    //declare the variables
     int choice, add_candidate, cast_vote, display_result, save_results, party, Nota,
         Indian_public_Party, National_Conference_Party, Majority_People_Party;
     while (1)
     {
+        //printing the details of the voting system using printf
         printf("\n--- Voting System ---\n");
         printf("1. Add candidate\n");
         printf("2. Cast Vote\n");
@@ -12,7 +14,7 @@ int main()
         printf("4. Exit\n");
         printf("Enter your choice:");
         scanf("%d", &choice);
-
+        //Use switch case for the choosing the particular party or options
         switch (choice)
         {
         case 1:
