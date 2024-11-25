@@ -7,36 +7,30 @@
 //void save_candidates();
 
 int main() {
-    int choice; Vcount1=0,Vcount2=0,Vcount3=0,Vcount4=0,mostV;
-    char name[30],gender,address[50]; 
+    int choice, Vcount1=0,Vcount2=0,Vcount3=0,Vcount4=0,mostV;
+    char name[30],gender,address[50];
     int age,ID,contact_no[10];
-    int a,i
+    int a,i;
 
 
 
 
         printf("\n\t\t---STATE ELECTION---\n");
-        printf("1.Add Candidates\n");
+        printf("1.Candidates details\n");
         printf("2.Cast Vote\n");
         printf("3.Display Results\n");
         printf("4.Exit\n");
 
-        printf("Please enter your name:\n");
-        scanf("%s" , &name);
-        printf("Enter your gender:\n");
-        scanf("%s", &gender);
-        printf("Enter your address:\n");
-        scanf("%s", &address);
-        printf("Please enter your age:\n");
-        scanf("%d", &age);
-        printf("Please enter your ID:\n");
-        scanf("%d", &ID);
-        printf("Enter your contact no.:\n");
-        scanf("%d", &contact );
-
-
-
-
+        printf("Enter your name: ");
+        scanf(" %s" , &name);
+        printf("Enter your gender: ");
+        scanf(" %s", &gender);
+        printf("Enter your address: ");
+        scanf(" %s", &address);
+        printf("Enter your age: \n ");
+        scanf(" %d", &age);
+        printf("Enter your contact no.: \n  ");
+        scanf(" %d", &contact_no );
 
     // Print party options
 
@@ -67,5 +61,8 @@ int main() {
     }
 
 
-    return 0; // Close the main function
-    }
+    return 0;
+    } // Close the main function
+
+
+
