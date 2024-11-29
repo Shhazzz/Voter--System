@@ -50,6 +50,7 @@ int main()
                     break;
                     return 0;
                 }
+                printf("Congrats! You have successfully casted your vote");
                 break;
             case 3:
                 display_result;
